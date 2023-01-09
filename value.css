@@ -1,0 +1,16 @@
+body{
+    background-image: url(https://img.freepik.com/vector-premium/fondo-borroso-gris-claro-blanco-degradado-radial_53562-6788.jpg?w=2000);
+}
+
+p {
+    background-color: aquamarine;
+}
+
+img{
+    height: 4cm;
+    width: 4cm;
+}
+
+#encabezado {
+    background-color: darkgrey;
+}
