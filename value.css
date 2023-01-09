@@ -1,4 +1,4 @@
-body{
+body, #encabezado{
     background-image: url(https://img.freepik.com/vector-premium/fondo-borroso-gris-claro-blanco-degradado-radial_53562-6788.jpg?w=2000);
 }
 
@@ -11,6 +11,11 @@ img{
     width: 4cm;
 }
 
-#encabezado {
-    background-color: darkgrey;
+/* POSICIONAMIENTO ABSOLUTO CON RESPECTO AL SCROLLEO
+#encabezado, #pestanas {
+    position: absolute;
 }
+*/
+
+.link { color: #FF0000; } /* CSS link color (red) */
+.link:hover { color: #00FF00; } /* CSS link hover (green) */
