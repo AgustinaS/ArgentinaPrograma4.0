@@ -1,6 +1,5 @@
 <!--NOTAS
-*CLASES PARA LOS ENCABEZADOS Y LAS PESTAÑAS: así quedan en todos los archivos y no hay que 
-reescribir texto-->
+*Los elementos iframe solo utilizan una porción de la página, no toda-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,7 +11,7 @@ reescribir texto-->
     <link rel="stylesheet" href="value.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
-<body>
+<body id="bodyPrincipal">
     <script src="comportamiento.js"> </script>
     <!--ENCABEZADO-->
     <div class="conteiner" id="encabezado">
@@ -61,9 +60,24 @@ reescribir texto-->
     </div>
     <!--FIN DE LAS PESTAÑAS-->
     <!--CUERPO VACÍO A RELLENAR -->
-    <div class="conteiner center text" id="1" style="display: none;">
-
-        <iframe src="datosPersonales.html" frameborder="0"></iframe>
+    <div class="conteiner center text" id="contenedorDeInfo">
+        <div id="0" class="col-md-12">
+            <iframe src="carta.html" frameborder="0"></iframe>
+        </div>
+        <div id="1" style="display: none;">
+            <iframe src="datosPersonales.html" frameborder="0"></iframe>
+        </div>
+        <div id="2" style="display: none;">
+            <iframe src="formacion.html" frameborder="0"></iframe>
+        </div>
+        <div id="3" style="display: none;">
+            <iframe src="idiomas.html" frameborder="0"></iframe>
+        </div>
+        <div id="4" style="display: none;">
+            <iframe src="conocimientos.html" frameborder="0"></iframe>
+        </div>
+        <div id="5" style="display: none;">
+            <iframe src="objetivos.html" frameborder="0"></iframe>
     </div>
     <!--FIN DEL CUERPO VACIO A RELLENAR-->
 </body>

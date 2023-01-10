@@ -1,7 +1,7 @@
-body, #encabezado{
+#bodyPrincipal, #encabezado{
     background-image: url(https://wallup.net/wp-content/uploads/2016/05/26/352920-abstract.jpg);
     background-repeat: no-repeat;
-
+    height: 100%;
 }
 
 img{
@@ -9,11 +9,10 @@ img{
     width: 4cm;
 }
 
-/* POSICIONAMIENTO ABSOLUTO CON RESPECTO AL SCROLLEO
-#encabezado, #pestanas {
-    position: absolute;
+iframe, #contenedorDeInfo{
+    position:fixed; 
+    width:70%;
+    height:100%; 
 }
-*/
 
-.link { color: #FF0000; } /* CSS link color (red) */
-.link:hover { color: #00FF00; } /* CSS link hover (green) */
+
