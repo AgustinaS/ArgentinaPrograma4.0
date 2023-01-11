@@ -4,15 +4,35 @@
     height: 100%;
 }
 
+#encabezado{
+    text-align: center;
+    vertical-align: middle;
+    padding: 1% 0;
+}
+
+ul.nav{
+    background-color:#a3a3a3;
+}
+
+h1{
+   padding: 8%;
+}
+
 img{
     height: 4cm;
     width: 4cm;
+    padding: 0%;
 }
 
 iframe, #contenedorDeInfo{
-    position:fixed; 
     width:70%;
     height:100%; 
+    margin: auto;
+    align-items: center;
+}
+
+#cartaComienzo, #cartaFin  {
+    text-align: right;
 }
 
 
