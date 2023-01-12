@@ -16,6 +16,10 @@
 
 }
 
+p{
+    padding: 10px;
+}
+
 h1{
    padding: 8%;
 }
@@ -29,8 +33,8 @@ h1{
 }
 
 iframe, #contenedorDeInfo{
-    width:100%;
-    height: 100%;
+    min-height: 100vh; 
+    width: 90%;
     margin: auto;
     display:flex;
     justify-content: center;
@@ -39,7 +43,7 @@ iframe, #contenedorDeInfo{
 }
 
 button{
-    padding: 5px;
+    margin: 5px;
     text-decoration:none;
     font-size: 20px;
     color:#333333;
@@ -55,10 +59,15 @@ div{
     height: 100%;
     width: 100%;
 }
+span{
+    display: inline-block;
+}
 
 #listaConImagenes img{
-    height: 1cm;
-    width: 1cm;
+    height: 1.2cm;
+    width: 1.2cm;
+    padding: 5px;
+    margin: 5px;
 }
 
 #listaConImagenes{
