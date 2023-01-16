@@ -22,6 +22,8 @@ p{
 
 h1{
    padding: 8%;
+   font-family: 'Anton', sans-serif;
+   text-align: center;
 }
 
 #perfil{
@@ -33,11 +35,16 @@ h1{
 }
 
 iframe, #contenedorDeInfo{
-    width: 90%;
+    width: 100%;
     margin: auto;
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    padding: 25px;
+    height: 100vh;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
 }
 
 button{
@@ -45,9 +52,8 @@ button{
     text-decoration:none;
     font-size: 20px;
     color:#333333;
-    border-style: solid;
-    border-color: black;
-    float: left;
+    background-color: transparent;
+    border-color: transparent;
 }
 
 #cartaComienzo, #cartaFinal  {
@@ -57,10 +63,6 @@ button{
 div{
     height: 100%;
     width: 100%;
-}
-
-span{
-    display: inline-block;
 }
 
 #listaConImagenes img{
@@ -74,6 +76,6 @@ span{
     list-style: none;
 }
 
-#item{
+#item, #conocimientos{
     list-style: square;
 }
